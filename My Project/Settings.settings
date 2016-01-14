@@ -1,0 +1,56 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="printBox" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\S2PPH8\Printbox\</Value>
+    </Setting>
+    <Setting Name="fldPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\SPHAS30\prescription$\</Value>
+    </Setting>
+    <Setting Name="logfldroot" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\S2PPH8\flog\</Value>
+    </Setting>
+    <Setting Name="backuproot" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\S2PPH8\backup\</Value>
+    </Setting>
+    <Setting Name="fldNameList" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;C02F_OPH&lt;/string&gt;
+  &lt;string&gt;A05F_OPH&lt;/string&gt;
+  &lt;string&gt;A07F_OPH&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="runtimeroot" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\S2PPH8\runtime\</Value>
+    </Setting>
+    <Setting Name="pdfviewerpath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Sumatra\sumatrapdf.exe</Value>
+    </Setting>
+    <Setting Name="printerName1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\SPHIS50\A02PHARFAXB2</Value>
+    </Setting>
+    <Setting Name="OUbkpath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\SPHAS30\prescription$\</Value>
+    </Setting>
+    <Setting Name="OUbksuffix" Type="System.String" Scope="User">
+      <Value Profile="(Default)">_BACKUP</Value>
+    </Setting>
+    <Setting Name="taskfrq" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">60000</Value>
+    </Setting>
+    <Setting Name="cpdfpath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\CPDF\cpdf.exe</Value>
+    </Setting>
+    <Setting Name="printboxlogfld" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\S2PPH8\Printbox\log\</Value>
+    </Setting>
+    <Setting Name="printServer1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\SPHIS50</Value>
+    </Setting>
+    <Setting Name="printQueue1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">A02PHARFAXB2</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
