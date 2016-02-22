@@ -3,16 +3,16 @@
   <Profiles />
   <Settings>
     <Setting Name="printBox" Type="System.String" Scope="User">
-      <Value Profile="(Default)">C:\S2PPH8\Printbox\</Value>
+      <Value Profile="(Default)">C:\S2PADM\Printbox\</Value>
     </Setting>
     <Setting Name="fldPath" Type="System.String" Scope="User">
-      <Value Profile="(Default)">\\SPHAS30\prescription$\</Value>
+      <Value Profile="(Default)">\\SPHAS30\prescription$\ADMISSION\</Value>
     </Setting>
     <Setting Name="logfldroot" Type="System.String" Scope="User">
-      <Value Profile="(Default)">C:\S2PPH8\flog\</Value>
+      <Value Profile="(Default)">C:\S2PADM\flog\</Value>
     </Setting>
     <Setting Name="backuproot" Type="System.String" Scope="User">
-      <Value Profile="(Default)">C:\S2PPH8\backup\</Value>
+      <Value Profile="(Default)">C:\S2PADM\backup\</Value>
     </Setting>
     <Setting Name="fldNameList" Type="System.Collections.Specialized.StringCollection" Scope="Application">
       <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
@@ -23,19 +23,19 @@
 &lt;/ArrayOfString&gt;</Value>
     </Setting>
     <Setting Name="runtimeroot" Type="System.String" Scope="User">
-      <Value Profile="(Default)">C:\S2PPH8\runtime\</Value>
+      <Value Profile="(Default)">C:\S2PADM\runtime\</Value>
     </Setting>
     <Setting Name="pdfviewerpath" Type="System.String" Scope="User">
       <Value Profile="(Default)">C:\Sumatra\sumatrapdf.exe</Value>
     </Setting>
     <Setting Name="printerName1" Type="System.String" Scope="User">
-      <Value Profile="(Default)">\\SPHIS50\A02PHARFAXB2</Value>
+      <Value Profile="(Default)">\\SPHIS51\AGADMR1</Value>
     </Setting>
     <Setting Name="OUbkpath" Type="System.String" Scope="User">
-      <Value Profile="(Default)">\\SPHAS30\prescription$\</Value>
+      <Value Profile="(Default)">\\SPHAS30\prescription$\ADMISSION\</Value>
     </Setting>
     <Setting Name="OUbksuffix" Type="System.String" Scope="User">
-      <Value Profile="(Default)">_BACKUP</Value>
+      <Value Profile="(Default)">_BKUP</Value>
     </Setting>
     <Setting Name="taskfrq" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">60000</Value>
@@ -44,7 +44,7 @@
       <Value Profile="(Default)">C:\CPDF\cpdf.exe</Value>
     </Setting>
     <Setting Name="printboxlogfld" Type="System.String" Scope="User">
-      <Value Profile="(Default)">C:\S2PPH8\Printbox\log\</Value>
+      <Value Profile="(Default)">C:\S2PADM\Printbox\log\</Value>
     </Setting>
     <Setting Name="printServer1" Type="System.String" Scope="User">
       <Value Profile="(Default)">\\SPHIS50</Value>

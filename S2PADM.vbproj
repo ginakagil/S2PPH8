@@ -7,9 +7,9 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{BB3FE9B5-9E69-4623-90E3-E1C577646B8F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>S2PPH8.S2PPH8</StartupObject>
-    <RootNamespace>S2PPH8</RootNamespace>
-    <AssemblyName>S2PPH8</AssemblyName>
+    <StartupObject>S2PADM.S2PADM</StartupObject>
+    <RootNamespace>S2PADM</RootNamespace>
+    <AssemblyName>S2PADM</AssemblyName>
     <MyType>Console</MyType>
     <ApplicationIcon>0043 - Batch File.ICO</ApplicationIcon>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
@@ -42,7 +42,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>S2PPH8.xml</DocumentationFile>
+    <DocumentationFile>S2PADM.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -51,7 +51,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\S2P_KIT\</OutputPath>
-    <DocumentationFile>S2PPH8.xml</DocumentationFile>
+    <DocumentationFile>S2PADM.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -92,7 +92,9 @@
     <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Printing" />
@@ -116,7 +118,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="S2PPH8.vb">
+    <Compile Include="S2PADM.vb">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="WindowsApi.vb" />

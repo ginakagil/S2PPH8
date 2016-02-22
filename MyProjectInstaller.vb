@@ -25,7 +25,7 @@ Public Class MyProjectInstaller
 
 
         ' ServiceName must equal those on ServiceBase derived classes.            
-        serviceInstaller1.ServiceName = "S2PPH8"
+        serviceInstaller1.ServiceName = "S2PADM"
 
 
         ' Add installers to collection. Order is not important.

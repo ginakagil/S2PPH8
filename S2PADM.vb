@@ -1,6 +1,6 @@
 Imports System.ServiceProcess
 
-Public Class S2PPH8
+Public Class S2PADM
     Inherits System.ServiceProcess.ServiceBase
     Dim xS2P As New S2P
 
@@ -37,7 +37,7 @@ Public Class S2PPH8
         '
         '   ServicesToRun = New System.ServiceProcess.ServiceBase () {New Service1, New MySecondUserService}
         '
-        ServicesToRun = New System.ServiceProcess.ServiceBase() {New S2PPH8}
+        ServicesToRun = New System.ServiceProcess.ServiceBase() {New S2PADM}
 
         System.ServiceProcess.ServiceBase.Run(ServicesToRun)
     End Sub
@@ -50,7 +50,7 @@ Public Class S2PPH8
     ' Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
         components = New System.ComponentModel.Container()
-        Me.ServiceName = "S2PPH8"
+        Me.ServiceName = "S2PADM"
     End Sub
 
 #End Region
